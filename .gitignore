@@ -881,6 +881,10 @@ venv.bak/
 # Data files
 *.csv
 *.json
+!package.json
+!package-lock.json
+!tsconfig.json
+!.eslintrc.json
 *.xml
 *.parquet
 data/
